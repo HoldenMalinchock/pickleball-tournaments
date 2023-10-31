@@ -1,75 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Pickleball Tournaments
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Most all pickleball tournaments run through [this](https://pickleballbrackets.com/pts.aspx).  This website is terribly designed and just has things that make no sense.  So we are going to re-write this website using Nuxt to build a demo of the site that looks better.
 
-## Setup
+## Technology
+We are going to use Nuxt which means Vue.js and then using tailwind.css with other nuxt modules to use this as opportunity to dive into Nuxt.  For deployments this will use Deno Deploy however the server api's will be written in node through Nuxt's server tools.
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Nuxt is the premier application for devloping Vue code and I have used vite and other vue standard build projects but this is an opportunity to get experience building a more true end to end experience.

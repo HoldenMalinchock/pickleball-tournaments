@@ -4,7 +4,8 @@
         "es2021": true
     },
     "extends": [
-        "plugin:vue/vue3-essential"
+        "plugin:vue/vue3-essential",
+        "plugin:prettier-vue/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -16,6 +17,19 @@
     ],
     "rules": {
         "vue/multi-word-component-names": "off",
+        "prettier-vue/prettier": [
+            "warn",
+            {
+                "printWidth": 120,
+                "tabWidth": 2,
+                "semi": false,
+                "singleQuote": false,
+                "trailingComma": "none",
+                "bracketSameLine": true,
+                "vueIndentScriptAndStyle": false,
+                "quoteProps": "consistent"
+            }
+        ],
         "indent": ["error", 2],
         "quotes": ["error", "double"]
     },
