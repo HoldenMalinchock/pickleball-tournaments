@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content mx-5">
     <div>My new first component</div>
     <button class="bg-red-800" @click="r++">Click me</button>
     <div>
